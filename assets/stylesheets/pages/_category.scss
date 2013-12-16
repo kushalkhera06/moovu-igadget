@@ -1,0 +1,33 @@
+h2{
+	    @include background(linear-gradient(#C14102 0, shade(#C14102, 20%) 100%));
+	    color:white;
+}
+.ShopByPrice
+{
+	border: 1px solid black;
+}
+
+.mw_arrow {
+  @include sprites-menu_go;
+float:right;
+}	
+
+&[data-ur-state="disabled"] {
+  > .mw_indicator {
+    @extend .sprites-plus;
+    float:right;
+  }
+}
+&[data-ur-state="enabled"] {
+  > .mw_indicator {
+    @extend .sprites-minus;
+    float:right;
+  }
+}
+
+li
+{
+	background-color:#FFFFCC;
+	border: 1px solid #C14102;
+	
+}
