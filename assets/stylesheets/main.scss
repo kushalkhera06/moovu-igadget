@@ -1,4 +1,4 @@
-// Reset file for standardizing the page
+@import "globals/_sprites";// Reset file for standardizing the page
 // @import "globals/_reset";
 
 // Import Bourbon
@@ -14,6 +14,7 @@
 // Site wide variables and libarary of mixins and classes
 @import "globals/_variables.scss";
 @import "globals/_lib.scss";
+@import "globals/_sprites.scss";
 
 // Import global base styles
 @import "globals/_base";
@@ -24,3 +25,6 @@
 
 // Pages
 @import "pages/_home";
+@import "pages/_brands";
+@import "pages/_category";
+@import "pages/_products";
