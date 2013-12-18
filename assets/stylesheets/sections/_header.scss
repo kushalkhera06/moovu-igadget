@@ -55,20 +55,38 @@
 
 #Logo
 {
+
 	#LogoContainer
 	{
-	
-	h1
+		width:100%;
+		display:inline;
+			h1
 			{
-				width:60%;
+			display:inline-block;;
+				width:91%;
+				a{
+					display:inline;
+					span{display:inline;}}
 			}
 			a
 			{
 				
 				width:20%;
-				align:right;
+				display:inline;
+				img
+				{
+					display:inline;
 				}
+				}
+				
 	
 }
 }
+.mw_indicator {
+	display:inline;
+}
 
+#SideCategoryList
+{
+	display:inline;
+}

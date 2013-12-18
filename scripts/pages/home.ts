@@ -4,13 +4,24 @@ $$("body"){
 	add_class("_home");
 }
 
+
+$(".//div[@class='BlockContent']//input")
+{
+	attribute("placeholder", "Enter the text")
+}
+
 $(".//div[@class='ProductActionAdd']/a")
 {
 			text("")
 			insert("img", class: "sprites-AddCartButton")		
 		
 }
-
+$(".//div[@class='ProductActionAdd']/strong/a")
+{
+			text("")
+			insert("img", class: "sprites-AddCartButton")		
+		
+}
 
 
 

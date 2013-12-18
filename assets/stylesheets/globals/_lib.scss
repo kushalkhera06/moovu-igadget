@@ -2,6 +2,10 @@
 
 }
 
+@mixin textbox1{
+	background:burlywood;
+}
+
 @mixin btn {
   
 }@mixin btn1 {
@@ -29,3 +33,86 @@
   @include btn1;
 }
 
+#nl_email
+{
+	@include textbox1;
+}
+
+#nl_first_name
+{
+	@include textbox1;
+}
+
+div.BlockContent
+{
+	label{color:maroon;font-weight:bolder;font-size:initial;}
+}
+
+input[type="text"]
+{
+    font-size:12px;
+    font-family:calibri;
+}
+
+.ProductList
+{
+	width:100%;
+	display:-webkit-inline-box;
+}
+
+ul.ProductList
+{
+	
+	li
+	{ width:20%;
+		div{width:20%;}
+	}
+}
+
+
+.ProductList
+{	
+	li
+	{ .ProductDetails{width:200px;} }
+	
+}
+
+.ProductDetails
+{strong{font-size:initial;}}
+
+.ProductPriceRating
+{em{font-size:large;}}
+
+
+#Footer
+{
+	p{font-size:large;}
+}
+
+.category-list
+{
+	li{font-size:large;}
+}
+
+.BlockContent
+{	ul	{li{font-size:large;}}}
+
+
+#Menu
+{	ul	{li{font-size:large;}}}
+
+input[placeholder], [placeholder], *[placeholder] {
+   color:red !important;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
+}

@@ -50,3 +50,10 @@ $("./body") {
    }
    }
    }
+   
+   $(".//div[@class='ProductActionAdd']/a")
+{
+			text("")
+			insert("img", class: "sprites-AddCartButton")		
+		
+}
